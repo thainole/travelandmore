@@ -56,7 +56,9 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="nosotros.html"
+                <a
+                  class="nav-link text-light active text-decoration-underline"
+                  href="nosotros.html"
                   ><i class="fa-solid fa-users me-2"></i> Nosotros</a
                 >
               </li>
@@ -66,14 +68,18 @@
       </nav>
     </header>
 
-    <main>
+    <main class="container my-5">
+      <h1 class="text-center font-raleway text-decoration-underline mb-5">
+        Sobre Nosotros
+      </h1>
+
       <section>
         <!-- Accordion -->
-        <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion" id="accordionPanelsStayOpen">
           <div class="accordion-item">
             <h2 class="accordion-header" id="panelsStayOpen-headingOne">
               <button
-                class="accordion-button font-roboto font-roboto"
+                class="accordion-button font-roboto"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#panelsStayOpen-collapseOne"
@@ -123,7 +129,7 @@
           <div class="accordion-item">
             <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
               <button
-                class="accordion-button font-roboto font-roboto collapsed"
+                class="accordion-button font-roboto collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#panelsStayOpen-collapseTwo"
@@ -160,7 +166,7 @@
           <div class="accordion-item">
             <h2 class="accordion-header" id="panelsStayOpen-headingThree">
               <button
-                class="accordion-button font-roboto font-roboto collapsed"
+                class="accordion-button font-roboto collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#panelsStayOpen-collapseThree"
@@ -224,57 +230,55 @@
         </div>
         <button class="btn btn-success">Enviar</button>
       </section>
-
-      <footer
-        class="footer text-light bg-dark-green d-flex justify-content-evenly align-items-start py-3"
-      >
-        <div class="text-center">
-          <h4 class="fs-5 font-poppins">Síguenos en:</h4>
-          <ul class="d-flex list-unstyled gap-3 mt-3">
-            <li>
-              <a
-                class="text-light"
-                href="https://www.linkedin.com"
-                target="_blank"
-                ><i class="fab fa-linkedin-in"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                class="text-light"
-                href="https://www.facebook.com"
-                target="_blank"
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-            </li>
-            <li>
-              <a class="text-light" href="https://instagram.com" target="_blank"
-                ><i class="fa-brands fa-instagram"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                class="text-light"
-                href="https://www.twitter.com"
-                target="_blank"
-                ><i class="fab fa-twitter"></i
-              ></a>
-            </li>
-          </ul>
-        </div>
-        <div class="text-light">
-          <h4 class="fs-5">Contáctanos:</h4>
-          <p>
-            <i class="fa-solid fa-location-dot me-2"></i>Avenida La Mar 1389 -
-            Miraflores
-          </p>
-          <p><i class="fa-solid fa-phone me-1"></i>+51 987 654 321</p>
-          <p>
-            <i class="fa-solid fa-envelope me-2"></i>travelandmore@gmail.com
-          </p>
-        </div>
-      </footer>
     </main>
+    <footer
+      class="footer text-light bg-dark-green d-flex justify-content-evenly align-items-center py-3"
+    >
+      <div
+        class="text-center d-flex flex-column align-items-center justify-content-center"
+      >
+        <h4 class="fs-5 font-poppins">Síguenos en:</h4>
+        <ul class="d-flex list-unstyled gap-3 mt-3">
+          <li>
+            <a
+              class="text-light"
+              href="https://www.linkedin.com"
+              target="_blank"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              class="text-light"
+              href="https://www.facebook.com"
+              target="_blank"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+          </li>
+          <li>
+            <a class="text-light" href="https://instagram.com" target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a class="text-light" href="https://www.twitter.com" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="text-light">
+        <h4 class="fs-5">Contáctanos:</h4>
+        <p class="mb-1">
+          <i class="fa-solid fa-location-dot me-2"></i>Avenida La Mar 1389 -
+          Miraflores
+        </p>
+        <p class="mb-1">
+          <i class="fa-solid fa-phone me-1"></i>+51 987 654 321
+        </p>
+        <p><i class="fa-solid fa-envelope me-2"></i>travelandmore@gmail.com</p>
+      </div>
+    </footer>
 
     <script src="./js/jquery.js"></script>
     <script src="./js/bootstrap.min.js"></script>
