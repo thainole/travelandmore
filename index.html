@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel & More | Home</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Raleway:wght@300;400;600&family=Lato:wght@300;400;700&family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="/imagen/icon.png" />
+  </head>
+  <body class="bg-white-smoke">
+    <header
+      class="d-flex flex-row justify-content-between bg-dark-green ps-3 py-2"
+    >
+      <div class="logo">
+        <a class="logo-link" href="index.html"
+          ><img src="imagen/logo.png" alt="Logo de Turismo"
+        /></a>
+      </div>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler bg-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon text-light"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto gap-5">
+              <li class="nav-item">
+                <a class="nav-link text-light" href="index.html"
+                  ><i class="fa-solid fa-home me-2"></i> Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="destinos.html"
+                  ><i class="fa-solid fa-earth-americas me-2"></i> Destinos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="servicios.html"
+                  ><i class="fa-solid fa-plane me-2"></i> Servicios</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="nosotros.html"
+                  ><i class="fa-solid fa-users me-2"></i> Nosotros</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section
+        class="px-5 py-3 landing-container text-center text-light d-flex flex-column justify-content-center align-items-center"
+      >
+        <div class="landing-container-text">
+          <h1 class="font-raleway display-4 fw-bold">
+            Bienvenido a Travel & More
+          </h1>
+          <h2 class="font-poppins fs-4 fw-light">
+            Explora nuestros servicios y destinos para un viaje inolvidable
+          </h2>
+        </div>
+      </section>
+
+      <section
+        class="info-container container py-5 d-flex flex-row align-items-center"
+      >
+        <div>
+          <h2 class="text-success">¿Por qué elegir Travel & More?</h2>
+          <p class="fs-5">
+            Porque estamos comprometidos con mejorar la experiencia de todos los
+            viajeros, priorizando su disfrute, seguridad y tranquilidad, pues
+            nosotros nos encargaremos de todo desde el primer minuto.
+          </p>
+        </div>
+        <img
+          src="./imagen/viajeros.jpeg"
+          alt="viajeros"
+          class="img-fluid rounded shadow w-25"
+        />
+      </section>
+
+      <section class="position-relative">
+        <video src="imagen/travel.mp4" autoplay loop class="w-100"></video>
+        <div
+          class="position-absolute top-0 bg-dark bg-opacity-50 w-100 d-flex flex-col align-items-start p-4"
+          style="height: 99.5%"
+        >
+          <h3 class="text-white">
+            Y tú, <br />¿te perderás de esta experiencia?
+          </h3>
+        </div>
+      </section>
+
+      <section class="mt-5 px-4">
+        <table class="table border">
+          <thead>
+            <tr class="text-center table table-success">
+              <th scope="col">Destinos Nacionales</th>
+              <th scope="col">Destinos Internacionales</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="text-center">
+              <td>Cusco</td>
+              <td>Islandia</td>
+            </tr>
+            <tr class="text-center">
+              <td>Cajamarca</td>
+              <td>Japón</td>
+            </tr>
+            <tr class="text-center">
+              <td>La Libertad</td>
+              <td>Francia</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section
+        class="d-flex justify-content-evenly py-5 px-2 gap-3 border-b mb-1"
+      >
+        <div
+          class="card text-center p-4 d-flex flex-col align-items-center justify-content-center"
+          style="max-width: 400px"
+        >
+          <p class="card-text fs-5">Te llevamos a los mejores destinos</p>
+          <a href="#" class="btn btn-success"
+            >Vamos! <i class="fa-solid fa-arrow-up-right-from-square"></i
+          ></a>
+        </div>
+        <div
+          class="card text-center p-4 d-flex flex-col align-items-center justify-content-center"
+          style="max-width: 400px"
+        >
+          <p class="card-text fs-5">Te ofrecemos una variedad de servicios</p>
+          <a href="#" class="btn btn-success"
+            >Conocer servicios
+            <i class="fa-solid fa-arrow-up-right-from-square"></i
+          ></a>
+        </div>
+      </section>
+
+      <div
+        class="d-flex flex-column align-items-center justify-content-center gap-4 mb-5 px-5"
+      >
+        <img
+          src="./imagen/viajera.jpg"
+          class="img-fluid rounded-pill border border-3 border-success shadow-lg"
+        />
+        <h4 class="font-poppins">
+          --------- Tu siguiente destino te espera ---------
+        </h4>
+      </div>
+
+      <footer
+        class="footer text-light bg-dark-green d-flex justify-content-evenly align-items-start py-3"
+      >
+        <div class="text-center">
+          <h4 class="fs-5 font-poppins">Síguenos en:</h4>
+          <ul class="d-flex list-unstyled gap-3 mt-3">
+            <li>
+              <a
+                class="text-light"
+                href="https://www.linkedin.com"
+                target="_blank"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                class="text-light"
+                href="https://www.facebook.com"
+                target="_blank"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+            </li>
+            <li>
+              <a class="text-light" href="https://instagram.com" target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                class="text-light"
+                href="https://www.twitter.com"
+                target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="text-light">
+          <h4 class="fs-5">Contáctanos:</h4>
+          <p>
+            <i class="fa-solid fa-location-dot me-2"></i>Avenida La Mar 1389 -
+            Miraflores
+          </p>
+          <p><i class="fa-solid fa-phone me-1"></i>+51 987 654 321</p>
+          <p>
+            <i class="fa-solid fa-envelope me-2"></i>travelandmore@gmail.com
+          </p>
+        </div>
+      </footer>
+    </main>
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>
